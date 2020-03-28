@@ -1,0 +1,23 @@
+Vinay is a CSE student. He hate listening to classes. So one of the faculty gave him a series with ouputs and asked him to find the logic. If Vinay can guess the logic he will get attendance even if he is out of the class 
+
+
+Input     Output
+  
+  1	   1
+  10	   5
+  56	   7 
+
+First line of each input contains T denotes number of test cases
+
+Sample Input
+
+3
+1
+10
+56
+
+Sample Output 
+
+1
+5
+7

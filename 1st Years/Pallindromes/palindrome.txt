@@ -1,0 +1,19 @@
+you are given a string and you need to find whether the string is palindrome or not.
+A string is said to be palindrome if it looks same when it is reversed
+INPUT FORMAT:
+First line consists a number T,no of test cases.
+And the next T lines consists a string S.
+OUTPUT FORMAT:
+print YES if the string is a palindrome else print NO
+CONSTRAINTS:
+1<=T<=100
+1<=|s|<=100
+INPUT:
+3
+ababa
+madam
+ab
+OUTPUT:
+YES
+YES
+NO

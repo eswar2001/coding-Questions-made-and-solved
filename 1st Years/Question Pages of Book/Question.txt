@@ -1,0 +1,55 @@
+A person who has interest in mathematics suggested by another friend to read a novel. But this person 
+given a problem for his friend in return.
+The problem is: 
+Suppose if the person has used X digits to print numbers to each page of novel, which starts from 1 to N.
+Now his friend need to find the value of N for the given value of X
+
+Input:
+
+- First line of input contains the number of test cases T.
+- The following T lines contains the value of X in each case.
+
+Output:
+
+-The output of each testcase is single integer N.
+
+Sample Input:
+	
+	2
+	20
+	21
+
+Sample Output:
+	
+	14
+	15
+
+Constraints:
+
+1 <= T <= 1000
+1 <= N <= 10^5
+
+Explaination:
+
+for sample testcase1 you can see he used 20 digits: 
+
+page.no no.of digits used
+	
+   1		1
+   2		1
+   3		1
+   4		1
+   5		1
+   6		1
+   7		1
+   8		1
+   9		1
+  10		2
+  11		2
+  12		2
+  13		2
+  14		2
+	------------------
+		19           --> "we cannot print page.no 15 with 1 digit"
+	------------------
+So Output is 14

@@ -1,0 +1,24 @@
+Iam varun I love SSD's but you know that cost of them is very high
+soo i cant afford much storage.I am facing issues with dublicate data,
+I will run out of memory if I dont find a solution ,I will have to 
+shift to HDD which has very slot Read/Write speeds.
+Note:-string might contain any ascii characters
+input0:
+A0a
+output:
+0Aa
+
+input1:
+abccbaabccba 
+output1:
+abc
+
+input2:
+zzzzzzzzzzzzz
+output2:
+z
+
+input3:
+cdaaaabbbbccd
+output3:
+abcd
