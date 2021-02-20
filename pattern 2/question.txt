@@ -1,0 +1,12 @@
+Given N compute Right Pascal’s Triangle.
+
+Input:-
+4
+Output:-
+* 
+* * 
+* * * 
+* * * * 
+* * * 
+* * 
+*

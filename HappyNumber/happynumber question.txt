@@ -1,0 +1,21 @@
+Given a number and you need to find whether it is happy or not.
+A number is said to be happy if each digit is differed with its neighbour digit with 1.
+Input Format:
+The first line of input contains an integer T denoting the number of test cases . Then T test cases follow . Each test case contains a single integer N denoting the number.
+
+Output Format:
+print YES if it is happy number else print NO
+CONSTRAINTS:
+1<=T<=100
+1<=N<=100000000
+Input:
+4
+123
+898
+987
+135
+Output:
+YES
+YES
+YES
+NO

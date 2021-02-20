@@ -1,0 +1,12 @@
+Input:
+1
+Output:
+*
+Input:
+5
+Output:
+*********
+ *     *
+  *   *
+   * *
+    *

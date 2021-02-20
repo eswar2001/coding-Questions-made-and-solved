@@ -1,0 +1,25 @@
+Find the maximum pair product product possible in the given array.
+size of arrays are very large like 10,000 in which the value of element ranges from 
+-1000000000 to +1000000000.
+I always prefer negative values over positive
+
+sample input:-
+6
+-1
+-2
+-3
+1
+2
+3
+sample output:-
+-3 -2
+
+sample input:-
+5
+1
+2
+3
+-1
+-2
+sample output:-
+3 2

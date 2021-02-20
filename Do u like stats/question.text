@@ -1,0 +1,19 @@
+Hi data science enthusiast,I have a work for you .Can you do it for me.
+calculate the standard deviation for 
+ ->dailyconfirmed 
+ ->totaldeceased 
+ ->totalconfirmed
+ in the given data but its given as json string so grab your language and do the work for me 
+ Thanking you in advance 
+  Ur Boss
+
+ sample input:-
+ {"cases_time_series":[{"dailyconfirmed":"1","dailydeceased":"0","dailyrecovered":"0","date":"30 January ","totalconfirmed":"1","totaldeceased":"0","totalrecovered":"0"},...],...}
+ sample output:-
+ standard deviation of dailyconfirmed 
+ standard deviation of totaldeceased 
+ standard deviation of totalconfirmed
+
+Note :-
+The value is rounded till 2 decimal place.
+if your ans is 3.4536 then after rounding to 2 decimal places u will get 3.45.

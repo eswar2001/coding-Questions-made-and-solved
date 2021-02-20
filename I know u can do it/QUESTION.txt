@@ -1,0 +1,32 @@
+Hey there ,I hope your lockdown is going well.I need to rank my pages according to
+score can you help me acheive it.
+
+Input:-
+page_name , id , rank
+output:-
+page_name id
+
+
+Example:-
+Input:-
+ubVAgFr2MBaZtin2CnGh , 1 , 9462
+DPaDuOrNFe3A6Vy4eZt7 , 2 , 42041
+IjDONtLyXnB7BewVXusH , 3 , 40710
+T8qsMEbgMW5ZyRWfz6l0 , 4 , 25967
+yb0WkY5NKKChPd0AW51m , 5 , 4994
+SHAZ8chiXkUbP8gfkHUo , 6 , 23756
+Xqmx4KeSB9j8FYnZVL6i , 7 , 13778
+z2QOs9XbGhYnYNfYoyr8 , 8 , 11798
+pmR7Olk6AvQQBqqb0VQz , 9 , 40917
+dnoD9hO6fRBs999R11S0 , 10 , 24346
+output:-
+yb0WkY5NKKChPd0AW51m 4994
+ubVAgFr2MBaZtin2CnGh 9462
+z2QOs9XbGhYnYNfYoyr8 11798
+Xqmx4KeSB9j8FYnZVL6i 13778
+SHAZ8chiXkUbP8gfkHUo 23756
+dnoD9hO6fRBs999R11S0 24346
+T8qsMEbgMW5ZyRWfz6l0 25967
+IjDONtLyXnB7BewVXusH 40710
+pmR7Olk6AvQQBqqb0VQz 40917
+DPaDuOrNFe3A6Vy4eZt7 42041

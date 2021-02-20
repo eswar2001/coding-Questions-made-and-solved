@@ -1,0 +1,10 @@
+Given N value print NXN rectangle.
+
+Input:-
+5
+Output:-
+*****
+*****
+*****
+*****
+*****

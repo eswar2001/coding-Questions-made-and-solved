@@ -1,0 +1,31 @@
+Hey,there I am happy to see your results.
+Now I need to calculate the standard deviation for your results subject wise.
+But I have trouble to work with csv and xls can you help me to get my work done.
+
+How is data presented:-
+Name,math,phy,chem,bio,hindi
+Example:-
+Abhi,51,84,92,99,5
+
+Note:-Names are Encrypted due to privacy concerns.
+      Each subject in new line.
+Sample test case:-
+
+Input::-
+lfsnabjvhb , 51 , 84 , 92 , 99 , 5
+jzhlvmipqc , 86 , 33 , 33 , 20 , 28
+bhvqgwjpit , 9 , 11 , 30 , 94 , 7
+atcqaaictp , 60 , 88 , 77 , 31 , 62
+
+Output::-
+26.2455
+29.2319
+27.875
+32.3608
+17.428
+
+Explanation:-
+SD for math [51,86,9,60] is 26.2455
+SD for phy [84,33,11,88] is 29.2319
+SD for chem[92,33,30,77] is 27.875
+...

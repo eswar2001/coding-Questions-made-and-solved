@@ -1,0 +1,12 @@
+Given N compute Left Pascal’s Triangle.
+
+Input:-
+4
+Output:-
+   *
+  **
+ ***
+****
+ ***
+  **
+   *

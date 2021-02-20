@@ -1,0 +1,25 @@
+You are Sai Varma the HOD of the school and there are two school kids Sai Naidu and rishi kanth. You have n BubbleGum. You have to distribute these n BubbleGum between two school kids in such a way that:
+->Both students will get greater than 0
+->each school kid will get some integer number of BubbleGum;
+->Sai Naidu will get a greater amount of BubbleGum than rishi kanth (i.e. a>b);
+->all the BubbleGum will be given to one of two school kids (i.e. a+b=n).
+Your task is to calculate the number of ways to distribute exactly n BubbleGum's between school kids in a way described above. BubbleGum are indistinguishable.
+
+Formally, find the number of ways to represent n as the sum of n=a+b, where a and b are positive integers and a>b.
+
+You have to answer t independent test cases.
+
+Input
+The first line of the input contains one integer t (1≤t≤10^4) — the number of test cases. Then t test cases follow.
+
+The only line of a test case contains one integer n (1≤n≤2⋅10^9) — the number of BubbleGum you have.
+
+Output
+For each test case, print the answer — the number of ways to distribute exactly n BubbleGum between two school kids in a way described in the problem statement. If there is no way to satisfy all the conditions, print 0.
+Sample input:
+2
+7
+1
+Sample Output:
+3
+0

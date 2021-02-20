@@ -1,0 +1,57 @@
+You guys ready for the next task ? I have a two computers A and B 
+A is a laptop that I carry to my college and B is which stays in my home.
+I do a lot of computations in B remotely from A, soo every project is done 
+in B but I have a problem when ever I compile and run my code in B ,B sends
+error messages to A so I can debug my code but the errors are redundant.
+Means they are several packets containg the same error messages over the UDP protocol 
+I did manage to receive the packets and save them to a file but I am not cool 
+enough to correct the  mistakes in lower level abstraction layers  like packet forwarding
+Can you help me remove the redundant data which is being sent from B to A.
+
+A senario where u could understand my problem
+
+assume that the code I sent to B is
+<code>
+#include<bits/stdc++.h>
+using namspace std;
+long main(){
+int a=a;
+int b=b;
+print('a');
+return "a";}
+</code>
+
+I get these error statements in B
+
+main.cpp:2:7: error: using declaration requires a qualified name using namspace std;
+main.cpp:2:15: error: expected ';' after using declaration using namspace std;
+main.cpp:3:1: error: 'main' must return 'int'long main(){
+main.cpp:6:1: error: use of undeclared identifier 'print' print('a');
+main.cpp:7:8: error: cannot initialize return object of type 'long' with an lvalue of type 'const char [2]'return "a";}
+
+But what I get in my system A is 
+
+main.cpp:2:7: error: using declaration requires a qualified name using namspace std;
+main.cpp:2:7: error: using declaration requires a qualified name using namspace std;
+main.cpp:2:15: error: expected ';' after using declaration using namspace std;
+main.cpp:3:1: error: 'main' must return 'int'long main(){
+main.cpp:2:7: error: using declaration requires a qualified name using namspace std;
+main.cpp:2:15: error: expected ';' after using declaration using namspace std;
+main.cpp:3:1: error: 'main' must return 'int'long main(){
+main.cpp:6:1: error: use of undeclared identifier 'print' print('a');
+main.cpp:2:7: error: using declaration requires a qualified name using namspace std;
+main.cpp:2:15: error: expected ';' after using declaration using namspace std;
+main.cpp:3:1: error: 'main' must return 'int'long main(){
+main.cpp:6:1: error: use of undeclared identifier 'print' print('a');
+main.cpp:7:8: error: cannot initialize return object of type 'long' with an lvalue of type 'const char [2]'return "a";}
+main.cpp:7:8: error: cannot initialize return object of type 'long' with an lvalue of type 'const char [2]'return "a";}
+main.cpp:6:1: error: use of undeclared identifier 'print' print('a');
+main.cpp:7:8: error: cannot initialize return object of type 'long' with an lvalue of type 'const char [2]'return "a";}
+main.cpp:2:15: error: expected ';' after using declaration using namspace std;
+main.cpp:3:1: error: 'main' must return 'int'long main(){
+main.cpp:6:1: error: use of undeclared identifier 'print' print('a');
+main.cpp:7:8: error: cannot initialize return object of type 'long' with an lvalue of type 'const char [2]'return "a";}
+
+NOTE:- I am noob in coding soo u can expect very large files in system A
+
+

@@ -1,0 +1,42 @@
+Its COVID Lockdown being IT/CSE student you got a chance to work with the Indian Government to create
+a web application.you are a pro in programming but you dont know to develop applications so your team
+decides to give a small work in reading a json file and printing what is required. 
+
+
+here is the syntax of json:-
+
+{
+  "Global": {
+    "NewConfirmed": 81,
+    "TotalConfirmed": 12345,
+    "NewDeaths": 5839,
+    "TotalDeaths": 22233,
+    "NewRecovered": 223,
+    "TotalRecovered": 2323
+  },
+  "Countries": [
+    {
+      "Country": "ALA Aland Islands",
+      "CountryCode": "AX",
+      "Slug": "ala-aland-islands",
+      "NewConfirmed": 81,
+      "TotalConfirmed": 12345,
+      "NewDeaths": 5839,
+      "TotalDeaths": 22233,
+      "NewRecovered": 223,
+      "TotalRecovered": 2323,
+      "Date": "2020-04-26T13:35:39Z"
+    }],
+  "Date": "2020-04-26T13:35:39Z"
+}
+
+Task :-
+They want you to print all the counrty names and then print 
+TotalConfirmed and TotalDeaths from Global each in new line.
+
+Sample input:-
+{"Global":{...},"Countries": [...],"Date": "2020-04-26T13:35:39Z"}
+Sample output:-
+ALA Aland Islands
+12345
+22233

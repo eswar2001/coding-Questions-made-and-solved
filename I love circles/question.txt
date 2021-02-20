@@ -1,0 +1,33 @@
+Given two circles.You have to find all lines that touch both circles simultaneously.
+If there are no such possible lines then print nothing.
+Print those lines after sorting as follows:-
+-If value of a are different, then line with higher a gets better rank.
+-If value of a are same, then line with higher c value gets better rank.
+-If value of a are same and value of c are also same, then line with greater b gets better rank.
+
+(x1,y1),(x2,y2) center of circle 
+r1,r2 radii of circles
+ax+by+c=0 tangent line equation
+input format
+no of test cases
+x1 y1 r1 x2 y2 r2
+
+output format
+a b c
+
+Sample input:-
+2
+0 0 3 0 1 3
+208 228 592 73 403 677
+
+Sample output:-
+1 0 3
+1 0 -3
+0.97 0.26 -8.5e+02
+0.5 0.87 2.9e+02
+
+
+Note:- setprecision to 2 decimal points
+       radii of circle should be positive 
+       so use abs in c++ while calculating
+       If your using other languages then google it guys.

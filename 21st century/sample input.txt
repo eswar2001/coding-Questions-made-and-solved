@@ -1,0 +1,15 @@
+18L31A0103,1000171105,ComputerProgrammingusing'c',F,0
+18L31A0103,1000171112,EnvironmentalStudies,F,0
+18L31A0103,1000171116,EngineeringMechanics,F,0
+18L31A0103,1000171121,English-CommunicationSkillsLaboratory-I,A,2
+18L31A0103,1000171127,EngineeringChemistryLaboratory,C,2
+18L31A0103,1000171128,ComputerProgrammingLab,C,2
+18L31A0107,1000171101,English-I,B,3
+18L31A0107,1000171102,EngineeringMathematics-I,C,3
+18L31A0107,1000171104,EngineeringChemistry,D,3
+18L31A0107,1000171105,ComputerProgrammingusing'c',B,3
+18L31A0107,1000171112,EnvironmentalStudies,B,3
+18L31A0107,1000171116,EngineeringMechanics,A,3
+18L31A0107,1000171121,English-CommunicationSkillsLaboratory-I,A,2
+18L31A0107,1000171127,EngineeringChemistryLaboratory,A,2
+18L31A0107,1000171128,ComputerProgrammingLab,A,2

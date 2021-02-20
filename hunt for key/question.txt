@@ -1,0 +1,21 @@
+Here's some new type of question to solve there is data being sent from one device to another.so they are encrypted by 
+this algotithm/technique 'Y2Flc2FyLWNpcGhlcg==' and this algotithm/technique name is in base(pow(2,6)) and I assume a key is required to 
+find the exact decrypted data.
+Tasks you have to do to solve this problem:-
+1)decode this Y2Flc2FyLWNpcGhlcg==
+2)find the key in this website https://bit.ly/Huntforkey
+
+Note:- It's better that you find find the key in the website rather than brute force. 
+input:-
+no of meaasges
+<messages>
+
+output:-
+<decoded messages>
+
+sample input:-(assuming the key you found in the website is 1)
+1
+ATTACKATONCE
+
+sample output:-
+EXXEGOEXSRGI

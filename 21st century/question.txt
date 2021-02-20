@@ -1,0 +1,49 @@
+Hola, Guys the results for the last semester is out.Being a CSE/IT grad you are called by your HOD.
+He provides you a CSV file which contains your results.HOD wants you to calculate the CGPA for all 
+students in the CSV.
+ 
+ Note:- print output as int only and there might not be all subjects given for each rollno 
+        max subjects are 9 in which 6 are theory and 3 are labs. 
+        Max no of lines in the file are 7000 to 20000  
+        input file name results.csv is given to the judge
+        *just incase you want to see the file visit this link*
+        https://drive.google.com/file/d/1V6XDxIkVm8Pc1QcdUmJq9yJlgtY8i1sT/view?usp=sharing
+
+ CGPA=Sigma(credit*subject_grade_point)/Sigma(credit)
+
+ theory_credit=3;
+ lab_credit=2;
+ total_credits=24;
+ total_theory_credits=18;
+ total_lab_credits=6;
+grade_to_points={
+{"O",10}
+{"A",9}
+{"B",8}
+{"C",7}
+{"D",6}
+{"F",0}
+}
+
+NOTE input format:-
+ ROLLNO,SUBJECT_CODE,SUBJECT_NAME,SUBJECT_GRADE,SUBJECT_CREDIT
+
+Input:-
+18L31A0103,1000171105,ComputerProgrammingusing'c',F,0
+18L31A0103,1000171112,EnvironmentalStudies,F,0
+18L31A0103,1000171116,EngineeringMechanics,F,0
+18L31A0103,1000171121,English-CommunicationSkillsLaboratory-I,A,2
+18L31A0103,1000171127,EngineeringChemistryLaboratory,C,2
+18L31A0103,1000171128,ComputerProgrammingLab,C,2
+18L31A0107,1000171101,English-I,B,3
+18L31A0107,1000171102,EngineeringMathematics-I,C,3
+18L31A0107,1000171104,EngineeringChemistry,D,3
+18L31A0107,1000171105,ComputerProgrammingusing'c',B,3
+18L31A0107,1000171112,EnvironmentalStudies,B,3
+18L31A0107,1000171116,EngineeringMechanics,A,3
+18L31A0107,1000171121,English-CommunicationSkillsLaboratory-I,A,2
+18L31A0107,1000171127,EngineeringChemistryLaboratory,A,2
+18L31A0107,1000171128,ComputerProgrammingLab,A,2
+ Output:-
+1
+8

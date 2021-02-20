@@ -1,0 +1,14 @@
+Input:-
+5
+Output:-
+ABCDEFEDCBA
+ABCDE EDCBA
+ABCD   DCBA
+ABC     CBA
+AB       BA
+A         A
+AB       BA
+ABC     CBA
+ABCD   DCBA
+ABCDE EDCBA
+ABCDEFEDCBA
