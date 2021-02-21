@@ -1,0 +1,7 @@
+In the given string replace all the occurences of "portal" into "website" and print the string.
+
+Input Format:-
+first line contains t denoting no of testcases
+Next t lines of strings
+Output Format:-
+print the modified string in a new line

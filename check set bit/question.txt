@@ -1,0 +1,14 @@
+if the given string contains atleast one "1" print "Yes" else "NO".
+
+Input contraints:-
+1<=sizeofstring<=10000
+
+Input:-
+3
+abcd0
+ab1cd
+abcd01
+Output:-
+No
+Yes
+Yes

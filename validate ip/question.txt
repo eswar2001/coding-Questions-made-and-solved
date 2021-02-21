@@ -1,0 +1,6 @@
+Write a program to remove leading zeros from an IP address.
+
+Sample input:-
+216.8.094.196
+Sample output:-
+216.8.94.196
