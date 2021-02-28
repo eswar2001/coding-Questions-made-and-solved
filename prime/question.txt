@@ -1,0 +1,6 @@
+Find the minimum prime number greater than or equal to X.
+
+Input:-
+20
+Output:-
+23

@@ -1,0 +1,13 @@
+Given is an integer r.
+
+How many times is the area of a circle of radius r larger than the area of a circle of radius 1?
+It can be proved that the answer is always an integer under the constraints given.
+
+Constraints:-
+1≤r≤100
+
+Sample input:-
+2
+Sample output:-
+4
+The area of a circle of radius 2 is 4 times larger than the area of a circle of radius 1.
